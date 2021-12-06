@@ -1,0 +1,32 @@
+{
+  "name": "@arynthernium/mdown",
+  "version": "1.0.0",
+  "description": "A cli tool to render markdown in a browser.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "mdown": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arynthernium/mdown.git"
+  },
+  "keywords": [
+    "md",
+    "markdown",
+    "cli",
+    "commandline"
+  ],
+  "author": "aryn",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/arynthernium/mdown/issues"
+  },
+  "homepage": "https://github.com/arynthernium/mdown#readme",
+  "dependencies": {
+    "getopts": "^2.3.0",
+    "marked": "^4.0.6"
+  }
+}
